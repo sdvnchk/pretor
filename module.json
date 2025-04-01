@@ -1,0 +1,28 @@
+{
+  "id": "pretor",
+  "title": "Претор",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Огородник",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "pretor",
+      "label": "Претор",
+      "path": "packs/pretor",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
